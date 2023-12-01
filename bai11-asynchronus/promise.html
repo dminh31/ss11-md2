@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        Promise (lời hứa)
+        sinh ra ở phiên bản ES6(2015)
+        
+     -->
+    <script>
+        let promise = new Promise((resolve, reject) => {
+            // resolve("thành công")
+            reject("thất bại !!!")
+        })
+        promise
+            .then((res) => {
+                console.log("2222", res);
+            })
+            .catch(err => console.log(err))
+        console.log('111', promise);
+    </script>
+</body>
+
+</html>

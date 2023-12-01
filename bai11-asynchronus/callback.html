@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        1. là hàm
+        2. được truyền làm đối số của hàm khác
+        Vấn đề: callback hell (địa ngục)
+     -->
+     <script>
+        let sdt;
+        function xinSDT(callback) {
+            console.log(`Hào gọi cho Hiếu xin số My`);
+            setTimeout(()=>{
+                sdt=372592552;
+                callback(sdt)
+            },3000)
+        }
+        xinSDT(goiDienKhiCoSo)
+        function goiDienKhiCoSo(sdt) {
+            console.log(`gọi cho My theo số ${sdt} `);
+        }
+     </script>
+</body>
+</html>

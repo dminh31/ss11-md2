@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "name": "hong111",
+      "email": "hong@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "123",
+      "email": "hong1@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "123",
+      "email": "hieu@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "123",
+      "email": "hie@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "123",
+      "email": "hieuuu@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "hieu",
+      "email": "hieu125@gmail.com",
+      "password": "hieu123",
+      "id": 6
+    },
+    {
+      "name": "duongdeptraivkl",
+      "email": "duongdeptraivkl@gmail.com",
+      "password": "duong15032001",
+      "id": 7
+    }
+  ],
+  
+  "products":[
+    {
+      "id":111,
+      "name":"iphone",
+      "product":[
+        {
+          "id":123,
+          "name":"1phone16",
+          "price":5000
+        }
+      ]
+    },
+    {
+      "id":222,
+      "name":"samsung",
+      "product":[
+        {
+          "id":211,
+          "name":"samsung1280",
+          "price":15000
+        },
+        {
+          "id":212,
+          "name":"simsamsung1281",
+          "price":25000
+        }
+      ]
+    }
+  ]
+}

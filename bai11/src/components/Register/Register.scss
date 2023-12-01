@@ -1,0 +1,13 @@
+.register{
+    margin-left: 10px;
+    label{
+        display: inline-block;
+        width: 100px;
+    }
+    input{
+        outline: none;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 5px; 
+    }
+}
